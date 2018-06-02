@@ -1,0 +1,28 @@
+body {
+	
+	background: transparent;
+	font-size: 100%;
+	color:black;
+	font-family:Palatino, Sans-serif;
+	background-image: url(https://img0.etsystatic.com/028/0/9830689/il_570xN.639255926_pnq1.jpg);
+    background-color:white;
+    background-position: 78%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+table {  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;    margin: 30px;     width: 95%; text-align: left;  background-color: white  }
+
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;   
+     color: black; }
+
+td {    padding: 8px;       
+    color: black;    }
+
+   a{    padding: 8px;       
+    color: black;    }
+
+
+tr:hover td { background: #d0dafd; color: #339; }
+
