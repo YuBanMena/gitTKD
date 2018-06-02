@@ -71,3 +71,11 @@ assets {
     minifyJs = true
     minifyCss = true
 }
+
+
+tasks.stage.doLast() {
+    delete fileTree(dir: "build/distributions")
+    delete fileTree(dir: "build/assetCompile")
+    delete fileTree(dir: "build/distributions")
+    delete fileTree(dir: "build/libs", exclude: "*.war")
+}
